@@ -1,0 +1,4 @@
+/munka-back/node_modules
+/munka-front/node_modules
+
+/munka-back/database.sqlite

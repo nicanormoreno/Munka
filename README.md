@@ -21,7 +21,8 @@ TO HAVE IN CONSIDERATION
 * any buy order is going to generate and assigns a new coupon to the logged user
 * the discounts are crated at random
 * once a coupon is used is moved to the " used coupons" table and removed fro the "active coupons" one
-* you can check te list of all the coupons on http://localhost:3002/coupons/all
+* you can check te list of all the coupons from GET http://localhost:3002/coupons/all (no token required)
+* you can check the list of all boy orders from GET http://localhost:3002/buyOrders (no token required)
 * if the limit of coups (active or active for an user) is reached, no coupon will be created.
 * the frontend buy order is a mock, it's not possible to create orders with different items.
 * to restart the db data run the seed command again (requires refresh the browser where the front is running)
