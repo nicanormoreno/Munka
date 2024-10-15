@@ -1,0 +1,28 @@
+GET http://localhost:3002/users
+
+###
+GET http://localhost:3002/coupons/all
+
+###
+GET http://localhost:3002/coupons/1a5f1e7c6a034f17/validate
+
+###
+GET http://localhost:3002/buyOrders
+
+###
+POST http://localhost:3002/buyOrders
+Content-Type: application/json
+
+{
+    "price": 3500,
+    "discountCode":"a9753498ccf04e89"
+}
+
+###
+POST  http://localhost:3002/login
+Content-Type:  application/json
+
+{
+    "email":"john.doe@mail.com",
+    "password":"Pass123"
+}
